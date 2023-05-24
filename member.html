@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="member.css">
+</head>
+<body>
+    <div class="form">
+        <div class="title">HALLO!!</div>
+        <div class="subtitle">Silahkan isi form pendaftaran seminar</div>
+
+        <div class="input-container ic1">
+          <input id="firstname" class="input" type="text" placeholder=" " />
+          <div class="cut"></div>
+          <label for="firstname" class="placeholder">First Name</label>
+        </div>
+
+        <div class="input-container ic2">
+          <input id="lastname" class="input" type="text" placeholder=" " />
+          <div class="cut"></div>
+          <label for="lastname" class="placeholder">Last Name</label>
+        </div>
+
+        <div class="input-container ic2">
+          <input id="email" class="input" type="text" placeholder=" " />
+          <div class="cut"></div>
+          <label for="email" class="placeholder">Email</label>
+        </div>
+
+        <div class="input-container ic3">
+            <h3>Pilih sesi :</h3>
+            <td>
+                <input type="radio" name="date" value="Pagi (08.00-10.00)"/> Pagi (08.00-10.00)
+                <br>
+                <input type="radio" name="date" value="Siang (12.00-14.00)"/> Siang (12.00-14.00)
+                <br>
+                <input type="radio" name="date" value="Sore (15.00-17.00)"/> Sore (15.00-17.00)
+            </td>
+<!-- 
+            <input type="radio" name="date" onclick="displayResult(this.value)" value="Pagi (08.00-10.00)">Pagi (08.00-10.00)
+            <input type="radio" name="date" onclick="displayResult(this.value)" value="Siang (12.00-14.00)">Siang (12.00-14.00)
+            <input type="radio" name="date" onclick="displayResult(this.value)" value="Sore (15.00-17.00)">Sore (15.00-17.00) -->
+            <!-- <div class="form-check">
+                <h3>Pilih sesi :</h3>
+                <input class="form-check-input" type="radio" name="date" id="date1">
+                <label class="form-check-label" for="date1">
+                    Pagi (08.00-10.00)
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="date" id="date2" checked>
+                <label class="form-check-label" for="date2">
+                    Siang (12.00-14.00)
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="date" id="date3" checked>
+                <label class="form-check-label" for="date2">
+                    Sore (15.00-17.00)
+                </label>
+              </div> -->
+        <button type="text" class="submit" id="btnSubmit">submit</button>
+      </div>
+      <script src="seminar.js"></script>
+    </body>
+    </html>
+   

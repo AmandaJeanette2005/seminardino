@@ -1,0 +1,116 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "seminar": [
+    {
+      "firstname": "Amanda",
+      "lastname": "Jeanette",
+      "email": "tirzaman@gmail.com",
+      "date": "Siang (12.00-14.00)",
+      "status": "Accept",
+      "id": 2
+    },
+    {
+      "firstname": "kalila",
+      "lastname": "ialalualsa",
+      "email": "sallilu@gmail",
+      "date": "Sore (15.00-17.00)",
+      "status": "Reject",
+      "id": 3
+    },
+    {
+      "firstname": "fino",
+      "lastname": "nono",
+      "email": "nofinofi@gmail.com",
+      "date": "Siang (12.00-14.00)",
+      "status": "Accept",
+      "id": 4
+    },
+    {
+      "firstname": "jeju",
+      "lastname": "juje",
+      "email": "jejujejujejue@gmail",
+      "date": "Sore (15.00-17.00)",
+      "status": "Reject",
+      "id": 5
+    },
+    {
+      "firstname": "Amanda",
+      "lastname": "Jeanette",
+      "email": "tirzaman@gmail.com",
+      "date": "Pagi (08.00-10.00)",
+      "status": "Accept",
+      "id": 6
+    },
+    {
+      "firstname": "omjdsk",
+      "lastname": "sda",
+      "email": "tirzaman@gmail.com",
+      "date": "Sore (15.00-17.00)",
+      "status": "Reject",
+      "id": 7
+    }
+  ],
+  "skincare": [
+    {
+      "name": "jeje",
+      "noTlpn": "0987654321",
+      "email": "amanda@gmail.com",
+      "skintype": "sensitif",
+      "date": "Sore (15.00-17.00)",
+      "status": "Accept",
+      "id": 1
+    },
+    {
+      "name": "Rachel",
+      "noTlpn": "0987654321",
+      "email": "Rachel@gmail.com",
+      "skintype": "oily",
+      "date": "Sore (15.00-17.00)",
+      "status": "Accept",
+      "id": 2
+    },
+    {
+      "name": "Nabila",
+      "noTlpn": "0987654321",
+      "email": "Nabila@gmail.com",
+      "skintype": "dry",
+      "date": "Sore (15.00-17.00)",
+      "status": "Reject",
+      "id": 3
+    },
+    {
+      "name": "Fitri",
+      "noTlpn": "0987654321",
+      "email": "Fitri@gmail.com",
+      "skintype": "oily",
+      "date": "Pagi (08.00-10.00)",
+      "status": "Accept",
+      "id": 4
+    },
+    {
+      "name": "Bagus",
+      "noTlpn": "0987654321",
+      "email": "Bagus@gmail.com",
+      "skintype": "oily",
+      "date": "Siang (12.00-14.00)",
+      "status": "Reject",
+      "id": 5
+    }
+  ]
+}
